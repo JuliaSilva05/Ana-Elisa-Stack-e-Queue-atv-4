@@ -89,7 +89,7 @@ int main()
         case 2: 
             if (isEmpty(minhaPilha)==0){
               pop(&minhaPilha);
-              printf("Valor desempilhado!\n");
+              printf("Valor desempilhado: %d\n",pop(&minhaPilha));
             } else{
               printf("Stack vazia!\n");
             }
